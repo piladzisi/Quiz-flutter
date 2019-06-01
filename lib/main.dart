@@ -35,6 +35,7 @@ class _QuizPageState extends State<QuizPage> {
     width: 1.0,
     height: 24.0,
   );
+
   List<Widget> scoreKeeper = [placeholder];
 
   void checkAnswer(bool userPickedAnswer) {
